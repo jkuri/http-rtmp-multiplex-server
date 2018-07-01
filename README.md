@@ -14,6 +14,7 @@ That example would not be possible without two awesome libraries;
 ```sh
 go get -u -v github.com/jkuri/http-rtmp-multiplex-server
 cd $GOPATH/src/github.com/jkuri/http-rtmp-multiplex-server
+dep ensure
 go run main.go
 ```
 
